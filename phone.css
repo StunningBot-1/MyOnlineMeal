@@ -1,0 +1,94 @@
+body {
+    background-color: aqua;
+}
+
+/*navigation*/
+#nav {
+    flex-direction: column;
+}
+
+#nav ul li {
+    font-size: 0.7rem;
+    padding: 0px 0px;
+    padding-bottom: 0px;
+}
+
+/* home */
+#home {
+    height: 400px;
+    padding: 3px 10px;
+}
+
+#home::before {
+    height: 530px;
+}
+
+#home p {
+    font-size: 0.8rem;
+}
+
+/* services */
+#services {
+    flex-direction: column;
+}
+
+#services .box {
+    padding: 10px;
+}
+
+#services .box p {
+    font-size: 0.8rem;
+}
+
+#services .box img {
+    height: 100px;
+}
+
+/* clients */
+#clients {
+    flex-wrap: wrap;
+}
+
+.client-item {
+    padding: 4px;
+}
+
+#clients img {
+    height: 60px;
+    /* padding: 4px; */
+}
+
+/* contact */
+#contact-box label {
+    font-size: 0.9rem;
+}
+
+#contact-box form {
+    width: 60vw;
+}
+
+#contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.1rem;
+    border-radius: .3rem;
+    font-size: 0.7rem;
+}
+
+#contact-box
+
+/* footer */
+footer {
+    padding: 2px;
+    font-size: 0.7rem;
+}
+
+/* Ultility */
+.h-primary {
+    font-size: 1.4rem;
+}
+
+.btn {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+}
